@@ -11,6 +11,7 @@
     <div class="text-center">
         <h1 class="fw-bold my-4">Laravel primi passi</h1>
         <h2 class="fw-bold my-4">Home</h2>
+        <p>{{ $text }}</p>
     </div>
 </body>
 </html>
