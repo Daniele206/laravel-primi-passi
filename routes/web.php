@@ -18,3 +18,10 @@ Route::get('/', function () {
 
     return view('home', compact('text'));
 });
+
+Route::get('/info', function () {
+    $text = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quaerat distinctio ratione laboriosam mollitia dolore ipsum illo! Quidem beatae placeat possimus reprehenderit doloribus error cupiditate, dolores blanditiis illum, mollitia quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quaerat distinctio ratione laboriosam mollitia dolore ipsum illo! Quidem beatae placeat possimus reprehenderit doloribus error cupiditate, dolores blanditiis illum, mollitia quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quaerat distinctio ratione laboriosam mollitia dolore ipsum illo! Quidem beatae placeat possimus reprehenderit doloribus error cupiditate, dolores blanditiis illum, mollitia quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quaerat distinctio ratione laboriosam mollitia dolore ipsum illo! Quidem beatae placeat possimus reprehenderit doloribus error cupiditate, dolores blanditiis illum, mollitia quo.';
+
+    return view('info', compact('text'));
+});
+
